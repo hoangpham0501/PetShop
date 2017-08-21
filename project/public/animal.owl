@@ -1,0 +1,422 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/apple/ontologies/2017/2/ont#"
+     xml:base="http://www.semanticweb.org/apple/ontologies/2017/2/ont"
+     xmlns:ont="http://www.semanticweb.org/apple/ontologies/2017/2/ont#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/apple/ontologies/2017/2/ont"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/apple/ontologies/2017/2/ont#chung_loai -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/apple/ontologies/2017/2/ont#chung_loai">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/apple/ontologies/2017/2/ont#Animal"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/apple/ontologies/2017/2/ont#dac_diem -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/apple/ontologies/2017/2/ont#dac_diem">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/apple/ontologies/2017/2/ont#Animal"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/apple/ontologies/2017/2/ont#id -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/apple/ontologies/2017/2/ont#id">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/apple/ontologies/2017/2/ont#Animal"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/apple/ontologies/2017/2/ont#mau_sac -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/apple/ontologies/2017/2/ont#mau_sac">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/apple/ontologies/2017/2/ont#Animal"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/apple/ontologies/2017/2/ont#Animal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/apple/ontologies/2017/2/ont#Animal"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/apple/ontologies/2017/2/ont#Animal1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/apple/ontologies/2017/2/ont#Animal1">
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/apple/ontologies/2017/2/ont#Animal"/>
+            </owl:Restriction>
+        </rdf:type>
+        <chung_loai rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alaska</chung_loai>
+        <dac_diem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">long day</dac_diem>
+        <id rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</id>
+        <mau_sac rdf:datatype="http://www.w3.org/2001/XMLSchema#string">trang va den</mau_sac>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/apple/ontologies/2017/2/ont#Animal10 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/apple/ontologies/2017/2/ont#Animal10">
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+            </owl:Restriction>
+        </rdf:type>
+        <chung_loai rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dalmantian</chung_loai>
+        <dac_diem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dom</dac_diem>
+        <id rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</id>
+        <mau_sac rdf:datatype="http://www.w3.org/2001/XMLSchema#string">trang</mau_sac>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/apple/ontologies/2017/2/ont#Animal11 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/apple/ontologies/2017/2/ont#Animal11">
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+            </owl:Restriction>
+        </rdf:type>
+        <chung_loai rdf:datatype="http://www.w3.org/2001/XMLSchema#string">shi tzu</chung_loai>
+        <dac_diem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">long dai</dac_diem>
+        <id rdf:datatype="http://www.w3.org/2001/XMLSchema#int">11</id>
+        <mau_sac rdf:datatype="http://www.w3.org/2001/XMLSchema#string">trang</mau_sac>
+        <mau_sac rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vang</mau_sac>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/apple/ontologies/2017/2/ont#Animal12 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/apple/ontologies/2017/2/ont#Animal12">
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+            </owl:Restriction>
+        </rdf:type>
+        <chung_loai rdf:datatype="http://www.w3.org/2001/XMLSchema#string">poodle</chung_loai>
+        <dac_diem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">long xoan</dac_diem>
+        <id rdf:datatype="http://www.w3.org/2001/XMLSchema#int">12</id>
+        <mau_sac rdf:datatype="http://www.w3.org/2001/XMLSchema#string">trang</mau_sac>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/apple/ontologies/2017/2/ont#Animal13 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/apple/ontologies/2017/2/ont#Animal13">
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+            </owl:Restriction>
+        </rdf:type>
+        <chung_loai rdf:datatype="http://www.w3.org/2001/XMLSchema#string">samoyed</chung_loai>
+        <dac_diem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">long day</dac_diem>
+        <id rdf:datatype="http://www.w3.org/2001/XMLSchema#int">13</id>
+        <mau_sac rdf:datatype="http://www.w3.org/2001/XMLSchema#string">trang</mau_sac>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/apple/ontologies/2017/2/ont#Animal14 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/apple/ontologies/2017/2/ont#Animal14">
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+            </owl:Restriction>
+        </rdf:type>
+        <chung_loai rdf:datatype="http://www.w3.org/2001/XMLSchema#string">phu quoc</chung_loai>
+        <dac_diem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">long ngan</dac_diem>
+        <id rdf:datatype="http://www.w3.org/2001/XMLSchema#int">14</id>
+        <mau_sac rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nau do</mau_sac>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/apple/ontologies/2017/2/ont#Animal15 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/apple/ontologies/2017/2/ont#Animal15">
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+            </owl:Restriction>
+        </rdf:type>
+        <chung_loai rdf:datatype="http://www.w3.org/2001/XMLSchema#string">beagle</chung_loai>
+        <dac_diem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">long ngan</dac_diem>
+        <id rdf:datatype="http://www.w3.org/2001/XMLSchema#int">15</id>
+        <mau_sac rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nau vang</mau_sac>
+        <mau_sac rdf:datatype="http://www.w3.org/2001/XMLSchema#string">trang</mau_sac>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/apple/ontologies/2017/2/ont#Animal16 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/apple/ontologies/2017/2/ont#Animal16">
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+            </owl:Restriction>
+        </rdf:type>
+        <chung_loai rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bulldog</chung_loai>
+        <dac_diem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">long ngan</dac_diem>
+        <id rdf:datatype="http://www.w3.org/2001/XMLSchema#int">16</id>
+        <mau_sac rdf:datatype="http://www.w3.org/2001/XMLSchema#string">do nau</mau_sac>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/apple/ontologies/2017/2/ont#Animal17 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/apple/ontologies/2017/2/ont#Animal17">
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+            </owl:Restriction>
+        </rdf:type>
+        <chung_loai rdf:datatype="http://www.w3.org/2001/XMLSchema#string">papillon</chung_loai>
+        <dac_diem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">long dai</dac_diem>
+        <dac_diem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">long xu</dac_diem>
+        <id rdf:datatype="http://www.w3.org/2001/XMLSchema#int">17</id>
+        <mau_sac rdf:datatype="http://www.w3.org/2001/XMLSchema#string">trang</mau_sac>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/apple/ontologies/2017/2/ont#Animal18 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/apple/ontologies/2017/2/ont#Animal18">
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+            </owl:Restriction>
+        </rdf:type>
+        <chung_loai rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dachshund</chung_loai>
+        <dac_diem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">long ngan</dac_diem>
+        <id rdf:datatype="http://www.w3.org/2001/XMLSchema#int">18</id>
+        <mau_sac rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nau do</mau_sac>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/apple/ontologies/2017/2/ont#Animal2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/apple/ontologies/2017/2/ont#Animal2">
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/apple/ontologies/2017/2/ont#Animal"/>
+            </owl:Restriction>
+        </rdf:type>
+        <chung_loai rdf:datatype="http://www.w3.org/2001/XMLSchema#string">husky</chung_loai>
+        <dac_diem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">long day</dac_diem>
+        <id rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</id>
+        <mau_sac rdf:datatype="http://www.w3.org/2001/XMLSchema#string">trang va den</mau_sac>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/apple/ontologies/2017/2/ont#Animal3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/apple/ontologies/2017/2/ont#Animal3">
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/apple/ontologies/2017/2/ont#Animal"/>
+            </owl:Restriction>
+        </rdf:type>
+        <chung_loai rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pitbull</chung_loai>
+        <dac_diem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hung du</dac_diem>
+        <id rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</id>
+        <mau_sac rdf:datatype="http://www.w3.org/2001/XMLSchema#string">den</mau_sac>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/apple/ontologies/2017/2/ont#Animal4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/apple/ontologies/2017/2/ont#Animal4">
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+            </owl:Restriction>
+        </rdf:type>
+        <chung_loai rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bichon frise</chung_loai>
+        <dac_diem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">long xu</dac_diem>
+        <id rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</id>
+        <mau_sac rdf:datatype="http://www.w3.org/2001/XMLSchema#string">trang</mau_sac>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/apple/ontologies/2017/2/ont#Animal5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/apple/ontologies/2017/2/ont#Animal5">
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+            </owl:Restriction>
+        </rdf:type>
+        <chung_loai rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chowchow</chung_loai>
+        <dac_diem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">long day</dac_diem>
+        <id rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</id>
+        <mau_sac rdf:datatype="http://www.w3.org/2001/XMLSchema#string">do</mau_sac>
+        <mau_sac rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nau</mau_sac>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/apple/ontologies/2017/2/ont#Animal6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/apple/ontologies/2017/2/ont#Animal6">
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+            </owl:Restriction>
+        </rdf:type>
+        <chung_loai rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pug</chung_loai>
+        <dac_diem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">long ngan</dac_diem>
+        <id rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6</id>
+        <mau_sac rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nau vang</mau_sac>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/apple/ontologies/2017/2/ont#Animal7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/apple/ontologies/2017/2/ont#Animal7">
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+            </owl:Restriction>
+        </rdf:type>
+        <chung_loai rdf:datatype="http://www.w3.org/2001/XMLSchema#string">akita</chung_loai>
+        <dac_diem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">long day</dac_diem>
+        <id rdf:datatype="http://www.w3.org/2001/XMLSchema#int">7</id>
+        <mau_sac rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nau vang</mau_sac>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/apple/ontologies/2017/2/ont#Animal8 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/apple/ontologies/2017/2/ont#Animal8">
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+            </owl:Restriction>
+        </rdf:type>
+        <chung_loai rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chihuahua</chung_loai>
+        <dac_diem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">long ngan</dac_diem>
+        <id rdf:datatype="http://www.w3.org/2001/XMLSchema#int">8</id>
+        <mau_sac rdf:datatype="http://www.w3.org/2001/XMLSchema#string">trang</mau_sac>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/apple/ontologies/2017/2/ont#Animal9 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/apple/ontologies/2017/2/ont#Animal9">
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+            </owl:Restriction>
+        </rdf:type>
+        <chung_loai rdf:datatype="http://www.w3.org/2001/XMLSchema#string">berger</chung_loai>
+        <dac_diem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hung du</dac_diem>
+        <id rdf:datatype="http://www.w3.org/2001/XMLSchema#int">9</id>
+        <mau_sac rdf:datatype="http://www.w3.org/2001/XMLSchema#string">den</mau_sac>
+        <mau_sac rdf:datatype="http://www.w3.org/2001/XMLSchema#string">do</mau_sac>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi -->
+
